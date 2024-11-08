@@ -1,0 +1,397 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Serif', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.topnav {
+  background-color: #fff8e7;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #820024;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav .icon {
+  display: none;
+  font-size: 35px;
+}
+
+.topnav .logo {
+  font-family: 'Alex Brush';
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.topnav .list-nav {
+  padding: 26px 16px;
+  letter-spacing: 2px;
+}
+
+
+/*CSS UNTUK HOME ATAU JUMBOTRON*/
+
+.jumbotron {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 530px;
+  width: 100%;
+  padding: 100px 0 100px 30px;
+  background-color: rgba(0,10,0,.2);
+  background-blend-mode: multiply;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  color: #fff;
+  opacity: 0.9;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  opacity: 0.8;
+  margin: 30px 0px 60px 0px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.order-button {
+  border-radius: 3pt;
+  margin-top: 20px;
+  padding: 20px 20px;
+  color: white;
+  background-color: #94032b;
+  opacity: 0.8;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 18pt;
+}
+.order-button:hover {
+  opacity: 1;
+  background-color: #94032b;
+}
+.order-button:active{
+  opacity: 0.8;
+  background-color: #94032b;
+}
+
+
+.btn-nav {
+  letter-spacing: 0.05rem;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  background: transparent;
+}
+.btn-nav:before {
+  border-top: 0.3rem solid #820024;
+  border-bottom: 0.3rem solid #820024;
+  display: block;
+  position: absolute;
+  background: transparent;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  right: 100%;
+  transition: 0.48s all ease-in-out;
+}
+.btn-nav:hover {
+  letter-spacing: 5px;
+}
+.btn-nav:hover:before {
+  left: 25%;
+  right: 25%;
+}
+
+/*HOME DAN JUMBOTRON SELESAI*/
+/*MAIN SECTION*/
+.main h1{
+  font-family: 'Alex Brush';
+  font-size:52px;
+}
+.main {
+  background-color: #fff;
+  text-align:center;
+}
+.text{
+  padding:40px 0 0 0;
+
+}
+.text-2{
+  padding:50px 0 0 0;
+}
+
+.container{
+  max-width:1170px;
+  width:100%;
+  margin:0 auto;
+
+}
+.img{
+  height:332px;
+  width:auto;
+  display:inline-block;
+}
+.img-2{
+  padding-bottom:70px;
+
+}
+.container-2{
+  border-bottom:2px solid #eee;
+  max-width:1170px;
+  width:100%;
+  margin:0 auto;
+}
+
+
+.button{
+  display:inline-block;
+  padding:91px 114px;
+  color:white;
+  background-color:black;
+  background-size: cover;
+  margin-left:30px;
+  margin-right: 30px;
+  font-size:30px;
+}
+.lists{
+  margin-top:70px;
+}
+
+.a:hover{
+  background-image:url(1.jpg);
+}
+.b:hover{
+  background-image:url(2.jpg);
+}
+.c:hover{
+  background-image:url(3.jpg);
+}
+/*MAIN END*/
+/*SECTION MENU*/
+.menu-section{
+  background-color: #aaa7a2;
+  margin: 40px 0;
+  padding: 20px 30px;
+  color: white;
+  text-align: center;
+  font-size: normal;
+}
+.menu-container{
+  background-color: #aaa7a2;
+  height:950px;
+}
+.card-menu {
+  float: left;
+  width: 33%;
+  margin-top: 10px;
+}
+.card-menu img{
+  height: 420px;
+}
+.menu-item {
+  padding: 20px 0 40px 0;
+  width: 50%;
+  font-size: 18px;
+  margin: auto;
+  color: #444;
+}
+.menu-item-name {
+  font-size: 20px;
+  float: left;
+}
+.menu-item-price {
+  float: right;
+}
+
+/*JUMBOTRON END*/
+/*FORM MEMBERSHIP*/
+.form{
+    padding-top: 100px;
+    text-align:center;
+    background-image:url(https://images.unsplash.com/photo-1523294587484-bae6cc870010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1728&q=80);
+    font-family:cursive;
+    background-color: rgba(0,10,0,.2);
+    background-blend-mode: multiply;
+    
+}
+h3{
+    border-bottom:2px solid #fff8e7 ;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    color:#fff8e7;
+}
+
+input,textarea{
+    width:400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:20px ;
+    font-size: 18px;
+    background-color: #fff8e7;
+    border: 1px solid rgb(121, 83, 14);
+    border-radius: 10px;
+}
+
+.form-submit{
+   position:left;
+    background-color:#fff8e7;
+    color: burlywood;
+    box-shadow: 0 7px rgb(189, 154, 109);
+    border-radius: 10px;
+   
+}
+.form-submit:hover{
+    cursor:pointer ;
+    background-color: rgb(121, 83, 14);
+    box-shadow: 0 7px #fff8e7;
+    color:#fff8e7;
+}
+
+.form-submit:active{
+    position: relative;
+    top:7px;
+    box-shadow: none;
+}
+.form p{
+    color:#fff8e7;
+}
+
+
+/* css for footer */
+footer {
+	background: #303036;
+	color: #d3d3d3;
+	margin: auto;
+	padding: 20px 0 0 0;
+	position: relative;
+}
+
+footer .footer-content {
+	height: auto;
+	display: flex;
+}
+
+footer .footer-content .footer-section {
+	flex: 1;
+	margin-left: 50px;
+}
+
+footer li {
+	list-style-type: none;
+}
+
+footer .container {
+	padding: 0;
+}
+
+.footer-section h5 {
+	font-size: 20px;
+}
+
+.tentang {
+	padding: 0 20px;
+}
+
+.tentang p {
+	line-height: 1.3;
+	padding-right: 20px;
+}
+
+.copyright {
+	background: #343a40;
+	color: #fff;
+	height: 20%;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	padding: 30px;
+}
+
+.fa {
+	margin-right: 5px;
+}
+
+.social span {
+	margin: 5px;
+}
+
+.social a {
+	color: #fff;
+	margin-left: 5px;
+}
+
+.social .fa-facebook {
+	margin-right: 11px;
+}
+
+.social .fa-instagram {
+	margin-right: 8px;
+}
+
+.social ul {
+	padding-left: 0px;
+}
+
+.fb:hover .fa-facebook {
+	color: #3b5998;
+}
+
+.tw:hover .fa-twitter {
+	color: #55acee;
+}
+
+.ig:hover .fa-instagram {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+	font-size: 18px !important;
+}
+
+.products {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 20px;
+	padding-bottom: 10px;
+	width: 1200px%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.product {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	text-align: center;
+	margin: 10px;
+	width: auto;
+}
+
+.product img {
+	width: 80%;
+}
